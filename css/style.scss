@@ -1,0 +1,30 @@
+#add-todo{
+    font-size: 18px;
+    border-radius: 35px;
+    padding: 20px 40px;
+    background-color: #aedc44;
+    outline: none;
+    &:hover {
+         background-color: #a9f199;
+     }
+}
+
+
+#to-do-html{
+   list-style-type: none;
+   padding-left:0px;
+   span {
+    font-size:18px;
+   }
+}
+
+.delete-todo{
+    background-color:#f19431;
+    border-radius: 100%;
+    width: 22px;
+    height: 18px;
+}
+
+.crossed_out_text{
+    text-decoration: line-through;
+}
